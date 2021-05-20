@@ -1,4 +1,4 @@
-domain: hetzner.lab
+domain: monkey.lab
 cluster_name: ocp4
 nfs_registry: false
 
@@ -10,5 +10,5 @@ infra_nodes:
       - ip: 192.168.100.5
 
 dhcp:
-  timezone: "Europe/Rome"
+  timezone: "Europe/Berlin"
   ntp: 204.11.201.10

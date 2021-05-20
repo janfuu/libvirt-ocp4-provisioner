@@ -20,7 +20,7 @@ cluster_nodes:
     masters:
       vcpu: 4
       mem: 16
-      disk: 40	  
+      disk: 40 
     workers:
       vcpu: 2
       mem: 8
@@ -29,4 +29,4 @@ cluster_nodes:
 cluster:
   ocp_user: admin
   ocp_pass: openshift
-  pullSecret: ''
+  pullSecret: "{{ lookup('file', 'pull-secret.txt') }}"

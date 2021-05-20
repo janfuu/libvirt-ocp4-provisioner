@@ -1,2 +1,2 @@
 [vm_host]
-localhost ansible_connection=local
+F620 remote_user=jan

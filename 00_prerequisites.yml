@@ -10,7 +10,7 @@
       fail:
         msg: Your distribution is actually unsupported
       when:
-        - ansible_distribution != 'CentOS'
+        #- ansible_distribution != 'CentOS'
         - ansible_distribution != 'Fedora'    
     
     - name: Block of cluster checks
